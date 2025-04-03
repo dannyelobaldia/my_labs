@@ -1,0 +1,122 @@
+/* Based on https://www.udemy.com/course/web-developer-course-on-creating-a-business-website/learn/lecture/3609776#overview*/
+@charset "utf-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    background: #c79d75;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body span {
+    display: block;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    padding: 0;
+}
+
+p {
+    padding: 0 10%;
+    font-size: 1.2em;
+}
+
+img {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    max-height: 568px;
+    display: block;
+    margin: auto;
+}
+
+/* Navigation styles */
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+
+    background-color: #3679af;
+    list-style-type: none;
+
+    overflow: hidden;
+}
+
+nav li {
+    display: flex;
+    width: 1%5;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    min-width: 100px;
+    height: 100%;
+
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+nav a:hover,
+a:active {
+    background-color: #c7dfef;
+    color: #3679af;
+}
+
+#wrapper {
+    padding: 5px;
+    width: 100%;
+    margin: auto auto;
+    align-items: center;
+}
+
+header {
+    height: 100px;
+    padding: 15px 15px;
+    background: #216082;
+}
+
+section {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    border: solid 0px #ccc;
+}
+
+#one {
+    width: 500px;
+    background: #c7dfef;
+}
+
+footer {
+    clear: both;
+    padding: 0 15px;
+    text-align: center;
+}
