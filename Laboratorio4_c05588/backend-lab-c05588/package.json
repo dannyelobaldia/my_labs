@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "save": "^2.9.0",
+    "vue-router": "^4.5.0"
+  }
+}
